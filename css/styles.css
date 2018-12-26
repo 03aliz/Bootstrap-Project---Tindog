@@ -1,0 +1,179 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 900;
+}
+
+
+/* headings */
+
+.big-heading {
+
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.colored-section {
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+/* navigation bar*/
+
+
+
+
+.navbar-brand {
+  font-size: 2.5rem;
+  margin-left: -19px;
+  font-family: 'ubuntu';
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+/* Navbar download Buttons and main image*/
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone-img {
+  position: absolute;
+  transform: rotate(25deg);
+  width: 60%;
+  right: 30%;
+}
+
+/* title section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* features */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+.features-row {
+  padding-top: 30px;
+}
+
+.feature-heading {
+
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: normal;
+}
+
+
+
+.testo-icons {
+  color: #ef8172;
+}
+
+.testo-icons:hover {
+  color: #ff4c68;
+}
+
+/* testomonials section*/
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+
+
+
+/* press section */
+
+#press {
+  padding: 3%
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+  }
+
+  /* cta section */
+
+
+  #cta h3 {
+
+    font-family: 'Montserrat-black', sans-serif;
+    color: #fff;
+    font-size: 3rem;
+  }
+
+
+/* footer */
+
+
+.social-media-icons {
+  padding: 2% 1%;
+}
+  /* media queries */
+
+  @media (max-width:1100px) {
+    .iphone-img {
+      position: static;
+      transform: rotate(0);
+      margin-top: 5%;
+    }
+
+    .title-container {
+      text-align: center;
+    }
+  }
